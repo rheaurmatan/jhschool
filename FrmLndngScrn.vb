@@ -24,7 +24,9 @@
         myForm.Show()
     End Sub
 
+ 
     Private Sub btnBackupdb_Click(sender As Object, e As EventArgs) Handles btnBackupdb.Click
-
+        Dim RetVal
+        RetVal = Shell("C:\Users\Admin\Desktop\jhsdb.bat", 1)
     End Sub
 End Class
